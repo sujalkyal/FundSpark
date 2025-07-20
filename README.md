@@ -1,5 +1,5 @@
 # Fund Spark
-Link : https://fund-spark.vercel.app/
+Link : https://fund-spark-sujalkyals-projects.vercel.app/
 ## Project Description
 Fund Spark is a crowdfunding platform created using Next.js (app route), React, MongoDB, and Node.js. It is designed for developers who need funds to complete their projects. Fans and supporters of developers or project creators can support them by sending funds. Developers need a Razorpay account to receive funds and must generate a client ID and secret. 
 
@@ -48,6 +48,8 @@ GOOGLE_SECRET=<your google secret>
 
 5. Open your browser and navigate to http://localhost:3000.
 ## Usage/Examples
+
+**Note**: Login with Google may not work and show callback errors due to free tier service limitations. GitHub login is recommended as an alternative.
 
 #### For Project Creators or Developers:
 1. Users will sign up through Google or GitHub (credential login is not supported, users use NextAuth).
